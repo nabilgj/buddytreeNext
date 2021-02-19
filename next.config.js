@@ -1,8 +1,5 @@
 module.exports = {
   env: {
-    PUBLIC_URL: '/',
+    PUBLIC_URL: "/",
   },
-  // images: {
-  //   loader: 'imgix',
-  // },
 };

@@ -1,13 +1,13 @@
-import { products } from '../../data';
+import { products } from "../../data";
 
-import Grid from '@material-ui/core/Grid';
-import Typography from '@material-ui/core/Typography';
-import Container from '@material-ui/core/Container';
-import Image from 'next/image';
+import Grid from "@material-ui/core/Grid";
+import Typography from "@material-ui/core/Typography";
+import Container from "@material-ui/core/Container";
+import Image from "next/image";
 
-import Link from 'next/link';
+import Link from "next/link";
 
-import Header from '../../src/Header';
+import Header from "../../src/Header";
 
 const brand = ({ productData }) => {
   return (
@@ -15,7 +15,13 @@ const brand = ({ productData }) => {
       <Header />
       <Grid container direction="row">
         <Grid item lg>
-          <Image src={productData.imgUrl} alt="dslr camera" width={500} height={500} />
+          <Image
+            src={productData.imgUrl}
+            layout="fixed"
+            alt="dslr camera"
+            width={500}
+            height={500}
+          />
         </Grid>
 
         <Grid
@@ -40,7 +46,7 @@ const brand = ({ productData }) => {
         </Grid>
       </Grid>
 
-      <Link href="/brand" style={{ textDecoration: 'none', color: 'black' }}>
+      <Link href="/brand" style={{ textDecoration: "none", color: "black" }}>
         Go Back
       </Link>
     </Container>
