@@ -20,7 +20,7 @@ export default function Shop() {
       <Box sx={{ my: 2 }}>
         <Grid container direction="row" justify="space-evenly">
           <Grid item md>
-            <Link href="/brand/1">
+            <Link href="/brand/1" passHref={true}>
               {/* <Image
                 // src={`${process.env.PUBLIC_URL}1.jpg`}
                 src="https://images.pexels.com/photos/243757/pexels-photo-243757.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
@@ -30,18 +30,16 @@ export default function Shop() {
                 height={500}
               /> */}
 
-              <a>
-                <Imgix
-                  src="https://images.pexels.com/photos/243757/pexels-photo-243757.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-                  // sizes="100vw"
-                  width={400}
-                  height={400}
-                />
-              </a>
+              <Imgix
+                src="https://images.pexels.com/photos/243757/pexels-photo-243757.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                // sizes="100vw"
+                width={400}
+                height={400}
+              />
             </Link>
           </Grid>
           <Grid item md>
-            <Link href="/brand/2">
+            <Link href="/brand/2" passHref={true}>
               {/* <Image
                 // src={`${process.env.PUBLIC_URL}two.jpg`}
                 src="https://images.pexels.com/photos/442573/pexels-photo-442573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -51,18 +49,16 @@ export default function Shop() {
                 height={500}
               /> */}
 
-              <a>
-                <Imgix
-                  src="https://images.pexels.com/photos/442573/pexels-photo-442573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                  // sizes="100vw"
-                  width={400}
-                  height={400}
-                />
-              </a>
+              <Imgix
+                src="https://images.pexels.com/photos/442573/pexels-photo-442573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                // sizes="100vw"
+                width={400}
+                height={400}
+              />
             </Link>
           </Grid>
           <Grid item md>
-            <Link href="/brand/3">
+            <Link href="/brand/3" passHref={true}>
               {/* <Image
                 // src={`${process.env.PUBLIC_URL}three.jpg`}
                 src="https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
@@ -71,14 +67,12 @@ export default function Shop() {
                 height={500}
               /> */}
 
-              <a>
-                <Imgix
-                  src="https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                  // sizes="100vw"
-                  width={400}
-                  height={400}
-                />
-              </a>
+              <Imgix
+                src="https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                // sizes="100vw"
+                width={400}
+                height={400}
+              />
             </Link>
           </Grid>
         </Grid>
