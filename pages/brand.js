@@ -29,12 +29,15 @@ export default function Shop() {
                 width={500}
                 height={500}
               /> */}
-              <Imgix
-                src="https://images.pexels.com/photos/243757/pexels-photo-243757.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-                // sizes="100vw"
-                width={400}
-                height={400}
-              />
+
+              <a>
+                <Imgix
+                  src="https://images.pexels.com/photos/243757/pexels-photo-243757.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                  // sizes="100vw"
+                  width={400}
+                  height={400}
+                />
+              </a>
             </Link>
           </Grid>
           <Grid item md>
@@ -48,12 +51,14 @@ export default function Shop() {
                 height={500}
               /> */}
 
-              <Imgix
-                src="https://images.pexels.com/photos/442573/pexels-photo-442573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                // sizes="100vw"
-                width={400}
-                height={400}
-              />
+              <a>
+                <Imgix
+                  src="https://images.pexels.com/photos/442573/pexels-photo-442573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  // sizes="100vw"
+                  width={400}
+                  height={400}
+                />
+              </a>
             </Link>
           </Grid>
           <Grid item md>
@@ -66,12 +71,14 @@ export default function Shop() {
                 height={500}
               /> */}
 
-              <Imgix
-                src="https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                // sizes="100vw"
-                width={400}
-                height={400}
-              />
+              <a>
+                <Imgix
+                  src="https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  // sizes="100vw"
+                  width={400}
+                  height={400}
+                />
+              </a>
             </Link>
           </Grid>
         </Grid>
