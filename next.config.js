@@ -1,5 +1,8 @@
 module.exports = {
-  env: {
-    PUBLIC_URL: "/",
+  // env: {
+  //   PUBLIC_URL: "/",
+  // },
+  images: {
+    domains: ["images.pexels.com"],
   },
 };
